@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form method="post">
+        <div> <h1>Registration form</h1></div>
+        <fieldset>
+           
+           <label class="required">First Name:</label>
+            <input type="text" name="First name"   required>
+            <br>
+            <br>
+            
+    <label class="required">Last Name:</label>
+            <input type="text" name="Last name" required>
+            <br><br>
+       
+            <label class="required"> Email Id:</label>
+            <input type="text" name="Email"  required><br><br>
+       
+            <label class="required">Date of Birth:</label>
+            <input type="date" name="date" required><br><br>
+     
+            <label  class="required">Gender</label>
+            
+            <input type="radio" name="Gender" value="Male" id="M"  required>
+            <label for="M"  >Male</label>
+            <input type="radio" name="Gender" value="Female" id="F" required>
+            <label for="F">Female</label>
+            <br><br>
+       
+            <label >City:</label>
+            <select name="city" >
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi</option>
+            </select><br><br>
+        
+            <label >Pincode:</label>
+            <input type="number" name="number">
+            <br>
+            <br>
+           <label >Address:</label>
+           <textarea name="address"  rows="1"></textarea>
+           <br>
+           <br>
+           <label  >College:</label>
+           <input type="text" name="College" >
+           <br><br>
+           <label >Degree:</label>
+           <select name="degree" >
+            <option value="btech">Btech</option>
+            <option value="bsc">Bsc</option>
+            <option value="mbbs">MBBS</option>
+            <option value="bcom">Bcom</option>
+           </select>
+           <br><br>
+           <label>Year:</label>
+           <select name="year" >
+            <option value="fy">FY</option>
+            <option value="sy">SY</option>
+            <option value="ty">TY</option>
+            <option value="other">Other</option>
+           </select>
+           <br><br>
+           <label for="input">Select File:</label>
+           <!-- <br>
+           <br> -->
+           <input type="file" accept="image" name="file" id="input">
+           <br><br>
+            <input type="submit" class="submit">
+           
+           
+        </fieldset>
+    </form>
+</body>
+</html>

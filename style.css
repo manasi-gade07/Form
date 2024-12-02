@@ -1,0 +1,38 @@
+body{
+    background-color: white
+}
+h1{
+   text-align: center;
+}
+label
+{
+    color:black;
+    font-weight: bold;
+}
+fieldset
+{
+
+ padding-top: 10px;
+ padding-left: 5px;
+}
+.required::after
+
+{
+content: "*";
+color: red;
+font-size: 15px;
+font-weight: bold;
+}
+.submit
+{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    height: 25px;
+}
+    input[type=number]::-webkit-inner-spin-button
+    input[type=number]::-webkit-outer-spin-button
+    {
+    -webkit-appearance: none;
+    margin: 0;
+    }
